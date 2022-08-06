@@ -27,7 +27,7 @@ body {
 }
   
   
-.peloton-nutrition {
+.header {
     margin-left: 5rem;
     margin-top: 5rem;
     color: rgb(100, 100, 100);
@@ -56,6 +56,16 @@ body {
     line-height: 1.7rem;
 }
 
+.paragraph {
+  margin-top: 2rem;
+  margin-left: 5rem;
+  font-size: 1.2rem;
+  color: rgb(100, 100, 100);
+  inline-size: 32rem;
+  overflow-wrap: break-word;
+  line-height: 1.7rem;
+}
+
 .btn-explore {
     margin-top: 2rem;
     margin-left: 5rem;
@@ -67,4 +77,14 @@ body {
     border-radius: 4px;
     font-weight: bold;
     
+}
+
+.owner-img {
+  margin-left: 5rem;
+  width: 32rem;
+  height: 40rem;
+}
+
+.big-corn {
+  font-size: 10rem;
 }
