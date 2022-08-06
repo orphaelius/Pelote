@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: rgb(204, 52, 52);;
+}
+  
+  
+.peloton-nutrition {
+    margin-left: 5rem;
+    margin-top: 5rem;
+    color: rgb(100, 100, 100);
+    font-size: 1.3rem;
+    font-weight: light;
+    
+}
+
+.cycling {
+    margin-top: 2rem;
+    margin-left: 5rem;
+    font-size: 3rem;
+    inline-size: 30rem;
+    overflow-wrap: break-word;
+    font-weight: lighter;
+
+}
+
+.product-description {
+    margin-top: 2rem;
+    margin-left: 5rem;
+    font-size: 1.2rem;
+    color: rgb(100, 100, 100);
+    inline-size: 32rem;
+    overflow-wrap: break-word;
+    line-height: 1.7rem;
+}
+
+.btn-explore {
+    margin-top: 2rem;
+    margin-left: 5rem;
+    width: 15rem;
+    height: 3.5rem;
+    background-color: rgb(204, 52, 52);
+    color:rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    
+}
