@@ -6,6 +6,7 @@ body {
     font-weight: lighter;
 }
 
+/* NAVBAR elements */
 .navbar {
     overflow: hidden;
     background-color: #333;
@@ -25,7 +26,12 @@ body {
 .navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
     background-color: rgb(204, 52, 52);;
 }
-  
+
+
+
+/* HOME PAGE */
+
+
   
 .header {
     margin-left: 5rem;
@@ -35,7 +41,6 @@ body {
     font-weight: light;
     
 }
-
 .cycling {
     margin-top: 2rem;
     margin-left: 5rem;
@@ -56,15 +61,6 @@ body {
     line-height: 1.7rem;
 }
 
-.paragraph {
-  margin-top: 2rem;
-  margin-left: 5rem;
-  font-size: 1.2rem;
-  color: rgb(100, 100, 100);
-  inline-size: 32rem;
-  overflow-wrap: break-word;
-  line-height: 1.7rem;
-}
 
 .btn-explore {
     margin-top: 2rem;
@@ -79,12 +75,108 @@ body {
     
 }
 
-.owner-img {
-  margin-left: 5rem;
-  width: 32rem;
-  height: 40rem;
+/* home page images */
+.home-image {    
+    float: left;
+    margin-right: 40rem;
+    margin-top: 5rem;
 }
 
-.big-corn {
-  font-size: 10rem;
+.elote-stock {
+    width: 35rem;
+    height: 20rem;
+}
+
+/* OWNER PAGE */
+
+.owner-img {
+    width: 32rem;
+    height: 40rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.owner-header {
+    text-align: center;
+    /* color: rgb(77, 75, 75); */
+    font-size: 1.5rem;
+    font-weight: light;
+}
+
+.center-paragraph {
+    font-size: 1.2rem;
+    color: rgb(100, 100, 100);
+    margin-left: auto;
+    margin-right: auto;
+    inline-size: 32rem;
+    overflow-wrap: break-word;
+    line-height: 1.7rem;
+    text-align: center;
+  }
+  
+
+/* PRODUCT PAGE */
+
+.product-header {
+    text-align: center;
+}
+.product-page-elote {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+}
+
+.product-purchase-text {
+    text-align: center;
+
+}
+.btn-eat-pelote {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15rem;
+    height: 3.5rem;
+    background-color: rgb(204, 52, 52);
+    color:rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;    
+    cursor: pointer;
+}
+
+.subscription {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    
+}
+
+.subscription-box {
+    width: 6rem;
+    height: 1.5rem;
+}
+
+.email-label {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.email-input-box {
+    border-radius: 10px;
+    height: 1.2rem;
+}
+
+.btn-eat-pelote:hover {
+    background-color: black;
+}
+
+.btn-eat-pelote:active {
+    top: 2px;
+    left: 1px;
+    box-shadow: none;
 }
